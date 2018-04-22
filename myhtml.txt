@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="styleflex.css"/>
+</head>
+<body>
+
+<div class="container">
+
+   <div class="item1">1</div>
+   <div class="item2">2</div>
+   <div class="item3">3</div>
+  <!--   <div class="container-item red myFont">red Box</div>
+   <div class="container-item green myFont">green Box</div>
+    <div class="container-item purple myFont">purple Box</div>-->
+   
+
+</div>
+
+
+</body>
+</html>
