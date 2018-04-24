@@ -1,0 +1,231 @@
+@CHARSET "ISO-8859-1";
+
+.container{
+	
+	background: aqua;
+	margin-left:0%;
+	width: 100vw;
+	height: 80vh;
+   display:flex;
+	flex-wrap:wrap;
+    
+	
+}
+
+.item1{
+	
+	display: block;
+	background: blue;
+	width: 35vw;
+	height: 55vh;
+	border: 2px solid aqua;
+	
+}
+.item2{
+	
+	display: block;
+	background: blue;
+	width: 15vw;
+	height: 25vh;
+	border: 2px solid aqua;
+	margin-left: 40%;
+	
+}
+.item3{
+	
+	display: block;
+	background: blue;
+	width: 15vw;
+	height: 25vh;
+	border: 2px solid aqua;
+	
+}
+
+.font{
+	color: black;
+}
+
+
+@media screen and (max-width: 600px) {
+  
+	
+	
+	.container{
+	
+	background-color: green;
+	width:60%;
+	margin:20px;
+	  
+	
+     }
+     
+    
+.item1{
+	
+	heigth:80%;
+	width: 100%;
+	
+	
+}
+.item2{
+	
+	heigth:10%;
+	width: 40%;
+	margin-left: 0%;
+	
+	
+}
+.item3{
+	
+	heigth:10%;
+	width:40%;
+	
+	
+}
+}
+     
+     @media screen and (max-width: 380px) {
+  
+	.item1{
+	
+	width:60%;
+}
+	
+	  .item2{
+	
+	width:60%;
+}
+.item3{
+	
+	width:60%;
+}
+	
+	
+	/*@media screen and (max-width: 480px) {
+  
+	
+	
+	.container{
+	
+	background-color: red;
+	
+     }
+       .item1{
+	
+	display: block;
+	background: black;
+	width: 15vw;
+	height: 15vh;
+	border: 2px solid aqua;
+	
+}
+	
+}
+
+*/
+.my-container {
+    display: flex;
+   
+    /* to tell that elements should wrap themselves to next line
+    flex-wrap: wrap;
+   
+
+    width: 100%;
+    background-color: #D8D8D8;
+}
+
+
+
+.container-item {
+
+    height: 300px;
+}
+
+
+
+.myFont {
+
+    font-size: 50px;
+    color: white;
+
+}
+
+.blue {
+    background-color: #0081EA;
+}
+
+.red {
+    background-color: #EA000B;
+}
+
+.green {
+    background-color: #068400;
+}
+
+.purple {
+    background-color: #3F3FBF;
+}
+
+
+
+/*use media queries to change the layout
+
+@media screen and (min-width: 768px) {
+
+
+    .blue {
+        width: 50%;
+    }
+    .red {
+        width: 50%;
+    }
+    .green {
+
+        width: 50%;
+    }
+    .purple {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+
+
+    .blue {
+
+        width: 50%;
+    }
+    .red {
+
+        width: 50%;
+    }
+    .green {
+
+        width: 100%;
+    }
+    .purple {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+
+
+    .blue {
+        width: 100%;
+    }
+    .red {
+        width: 100%;
+    }
+    .green {
+        width: 100%;
+    }
+    .purple {
+        width: 100%;
+    }
+}
+
+*/
+
+
